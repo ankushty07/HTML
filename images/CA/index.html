@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: burlywood;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus club portal</title>
+</head>
+<body>
+    <center>
+        <div>
+    <h1 style="color: #333; border-bottom: 2px solid #333;">Campus Club Portal</h1>
+    <p>Explore your interests in various clubs and organizations!</p>
+    </div>
+    <nav>
+        <a href="index.html">Home</a> 
+        <a href="activities.html">Activities</a> 
+        <a href="join-a-club.html">Join a club</a> 
+        </nav>
+        </center>
+        </div>
+    
+        <div class="welcome">
+
+            <h2 id="mainHeading">Welcome to Our Campus!</h2>
+    
+            <p>
+                College is not only about studies.
+                Join different clubs, learn new skills
+                and make new friends.
+            </p>
+    
+        </div>
+    
+        <h2>Featured Activities</h2>
+    
+        <div style="text-align: center;">
+    
+            <button onclick="changeColor()">
+                Change Card Colour
+            </button>
+    
+            <button onclick="hideActivities()">
+                Show / Hide Activities
+            </button>
+
+            <button onclick="changeHeading()">
+                Change Heading
+            </button>
+    
+        </div>
+    
+        <div class="activities" id="activitySection"
+        style="display: flex; justify-content: space-around; margin-top: 20px;">
+    
+            <div class="card" id="card1"
+            style="background-color: lightblue; padding: 20px; border-radius: 10px; width: 200px;">
+                <h3>Dance Competition</h3>
+                <p>Club: Dance Club</p>
+                <p>Category: Cultural</p>
+            </div>
+    
+            <div class="card"
+            style="background-color: lightgreen; padding: 20px; border-radius: 10px; width: 200px;">
+                <h3>Coding Contest</h3>
+                <p>Club: Coding Club</p>
+                <p>Category: Technical</p>
+            </div>
+    
+            <div class="card"
+            style="background-color: lightcoral; padding: 20px; border-radius: 10px; width: 200px;">
+                <h3>Photography Exhibition</h3>
+                <p>Club: Photography Club</p>
+                <p>Category: Arts</p>
+            </div>
+            <script src="script.js"></script>
+            </body>
+            </html>
